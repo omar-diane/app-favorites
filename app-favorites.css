@@ -1,0 +1,61 @@
+* {
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    width: 100%;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    background-color: black;
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav .onglets {
+    margin-top: 35px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+
+.articles {
+    margin-top: 50px;
+    box-shadow: 0 15px 50px black ;
+    color: black;
+}
+
+.articles .article .right h1 {
+    font-size: 30px;
+}
+
+.articles .article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.articles .article img {
+    height: 300px;
+    width: 335px;
+    margin-left: 20px;
+}
+
+.articles .article .right {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.articles .article .right p.description {
+    color: gray;
+}
