@@ -65,5 +65,20 @@ aside img {
     float: right;
 }
 
+footer {
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer .social-media a {
+    font-size: 30px;
+    margin-right: 10px;
+    color: yellow;
+}
+
 
 

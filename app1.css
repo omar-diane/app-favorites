@@ -115,3 +115,18 @@ nav .onglets a {
     font-size: 20px;
     color: red;
 }
+
+footer {
+    margin-top: 100px;
+    background-color: rgba(241, 21, 76, 0.801);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer .social-media a {
+    font-size: 30px;
+    margin-right: 10px;
+    color: white;
+}
